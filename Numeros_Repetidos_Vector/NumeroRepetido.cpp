@@ -10,7 +10,7 @@ using namespace std;
 
 int main ()
 {
-    int numbers[10] = {9,5,6,7,7,4,9,9,9,4};
+    int numbers[10] = {1,4,8,7,7,7,9,9,3,2};
     int *sum = new int[10];
     //int sum[10] = {0,0,0,0,0,0,0,0,0,0};
 
