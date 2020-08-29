@@ -1,2 +1,3 @@
-# Algorithms in C++
-Conjunto de Algoritmos en C++ 
+# Algorithms
+Conjunto de Algoritmos
+
