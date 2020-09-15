@@ -23,6 +23,9 @@ int main(int argc, char **argv)
 		number += previous;
 		previous = auxiliary;
 	}
+
+	cout<<"\n";
+
 	return 0;
 }
 

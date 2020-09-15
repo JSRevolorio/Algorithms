@@ -12,15 +12,16 @@ int main(int argc, char **argv)
 {
 	int year;
 	
-	cout <<"Ingrese el año: ";
+	cout <<"Enter the year to enter: ";
 	cin >>year;
 	
-	if(year % 4 != 0 || (year % 100 == 0 && year % 400 != 0 )){
-		cout <<"No es bisiesto";
+	if(year % 4 != 0 || (year % 100 == 0 && year % 400 != 0 )) {
+		cout <<"The year " << year <<" is not leap \n";
 	}
 	else{
-		cout <<"Es bisiesto";
+		cout <<"The year "<< year <<" is leap \n";
 	}
 	
 	return 0;
 }
+
